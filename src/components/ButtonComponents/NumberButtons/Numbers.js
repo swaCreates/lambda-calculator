@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {numbers} from '../../../../src/data.js';
 import NumberButton from './NumberButton';
-import { tsPropertySignature } from "@babel/types";
 
 //import any components needed
 // example of import from data.js. Note all the ../   This is how we move through folders. 
