@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import Numbers from './components/ButtonComponents/NumberButtons/Numbers.js';
 import Operators from './components/ButtonComponents/OperatorButtons/Operators.js';
 import Specials from './components/ButtonComponents/SpecialButtons/Specials';
