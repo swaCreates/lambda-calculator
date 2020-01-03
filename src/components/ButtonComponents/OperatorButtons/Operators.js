@@ -17,14 +17,8 @@ const Operators = () => {
   return (
     <div>
 
-     {/* Having a issue accessing object. I need to review.
-    
-      Also don't know why error says Line 26:  Expected an assignment or function call and instead saw an expression 
-
-      */}
-
-      {operator.map(function(operatorArr, index){
-       return <OperatorButton key={index} operators= {operatorArr}/>
+      {operator.map(function(opsArr, index){
+       return <OperatorButton key={index} operators= {opsArr.char}/>
       })}
 
 
